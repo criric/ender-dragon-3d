@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ender Dragon - 3d: Referência do Arquivo ender-dragon-3d/escultura3d/escultura-pa/main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ender Dragon - 3d<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_81652960e84d8539b9a58b6a9a7381f7.html">ender-dragon-3d</a></li><li class="navelem"><a class="el" href="dir_43d36ac21f5d966d5171894ed3793de9.html">escultura3d</a></li><li class="navelem"><a class="el" href="dir_3704486901faefd2de1e5a6c7a0d1dc6.html">escultura-pa</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &quot;<a class="el" href="sculptor_8hpp_source.html">sculptor.hpp</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">    6</span>{</div>
+<div class="line"><span class="lineno">    7</span>    <a class="code hl_class" href="class_sculptor.html">Sculptor</a> enderDragon(150,150,150);</div>
+<div class="line"><span class="lineno">    8</span>    enderDragon.setColor(0.01, 0.01, 0.01, 1.0);</div>
+<div class="line"><span class="lineno">    9</span> </div>
+<div class="line"><span class="lineno">   10</span>    <span class="comment">//Cabeça</span></div>
+<div class="line"><span class="lineno">   11</span>    enderDragon.putBox(59, 89, 59, 89, 59, 89);</div>
+<div class="line"><span class="lineno">   12</span> </div>
+<div class="line"><span class="lineno">   13</span>    <span class="comment">//Focinho</span></div>
+<div class="line"><span class="lineno">   14</span>    enderDragon.putBox(89, 109, 61, 76, 63, 85);</div>
+<div class="line"><span class="lineno">   15</span>    enderDragon.cutBox(89,109, 70,71, 59, 89);</div>
+<div class="line"><span class="lineno">   16</span>    enderDragon.cutBox(89,107, 69,70, 64, 84);</div>
+<div class="line"><span class="lineno">   17</span>    enderDragon.cutBox(89,107, 71,72, 64, 84);</div>
+<div class="line"><span class="lineno">   18</span> </div>
+<div class="line"><span class="lineno">   19</span>    enderDragon.setColor(169.1, 169.1, 169.1, 1.0);</div>
+<div class="line"><span class="lineno">   20</span>    enderDragon.putBox(101, 107, 76, 79, 66, 69);</div>
+<div class="line"><span class="lineno">   21</span>    enderDragon.putBox(101, 107, 76, 79, 79, 82);</div>
+<div class="line"><span class="lineno">   22</span> </div>
+<div class="line"><span class="lineno">   23</span>    <span class="comment">//Olhos</span></div>
+<div class="line"><span class="lineno">   24</span>    enderDragon.setColor(128.1, 0.01, 128.1, 1.0);</div>
+<div class="line"><span class="lineno">   25</span>    enderDragon.putBox(89, 90, 81, 84, 78, 82);</div>
+<div class="line"><span class="lineno">   26</span>    enderDragon.putVoxel(89, 81, 77);</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    enderDragon.putBox(89, 90, 81, 84, 66, 70);</div>
+<div class="line"><span class="lineno">   29</span>    enderDragon.putVoxel(89, 81, 70);</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>    <span class="comment">//Chifres</span></div>
+<div class="line"><span class="lineno">   32</span>    enderDragon.setColor(128.1, 128.1, 128.1, 1.0);</div>
+<div class="line"><span class="lineno">   33</span>    enderDragon.putBox(67, 81, 89, 94, 64, 67);</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    enderDragon.putBox(67, 81, 89, 94, 81, 84);</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="comment">//Fogo</span></div>
+<div class="line"><span class="lineno">   38</span>    enderDragon.setColor(128.1, 0.01, 128.1, 1.0);</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 200; i++){</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordtype">int</span> x = rand() % 150;</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordtype">int</span> y = rand() % 150;</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordtype">int</span> z = rand() % 150;</div>
+<div class="line"><span class="lineno">   43</span>        enderDragon.putVoxel(x, y, z);</div>
+<div class="line"><span class="lineno">   44</span>    }</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="comment">//Trófeu</span></div>
+<div class="line"><span class="lineno">   47</span><span class="comment">//    enderDragon.setColor(244.1, 169.01, 0.1, 1.0);</span></div>
+<div class="line"><span class="lineno">   48</span><span class="comment">//    enderDragon.putBox(57, 58, 54, 95, 54, 95);</span></div>
+<div class="line"><span class="lineno">   49</span><span class="comment">//    enderDragon.cutVoxel(57, 92, 74);</span></div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    enderDragon.writeOFF(<span class="stringliteral">&quot;deathStar.off&quot;</span>);</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdef"><b>Definition:</b> sculptor.hpp:4</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>
